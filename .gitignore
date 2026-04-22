@@ -3,3 +3,12 @@ __pycache__/
 *.pyc
 .idea/
 .DS_Store
+
+# === temp 2026-04-22: non-CI/CD files (artifact: _backup/2026-04-22-pre-cicd/sellout-ai-trajectory-generator/) ===
+README-sellout-ai-trajectory-generator.md
+test_artifacts/TEST_REPORT.md
+test_artifacts/sample_trajectories.json
+test_artifacts/test_artifacts_gen.py
+test_artifacts/test_run.log
+test_artifacts/test_summary.json
+test_artifacts_gen.py
