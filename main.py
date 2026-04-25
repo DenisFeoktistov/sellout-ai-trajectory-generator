@@ -7,6 +7,11 @@ import images_generator_functions
 api_app = FastAPI()
 
 
+@api_app.get("/health")
+async def health():
+    return {"status": "ok"}
+
+
 @api_app.get("/trajectory_generator/get_trajectory_circles")
 async def process_spu(goal_degrees: int):
 
